@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+body {
+    background-color: #017e71; /* Initial background color */
+    transition: background-color 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.main-card, .card {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.main-card:hover, .card:hover {
+    transform: translateY(-5px);
+}
+
+#text {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    background: #1687a6;
+    border-radius: 5px;
+    color: white;
+    transition: background 0.3s ease;
+    flex: 1 1 auto;
+    min-width: 150px;
+}
+
+button:hover {
+    background: #0e5c7e;
+}
+
+#copyBtn {
+    background: #e63946;
+}
+
+#copyBtn:hover {
+    background: #b82634;
+}
+
+#resetBtn {
+    background: #f4a261;
+}
+
+#resetBtn:hover {
+    background: #e76f51;
+}
+
+#saveBtn {
+    background: #2a9d8f;
+}
+
+#saveBtn:hover {
+    background: #21867a;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+#colorHistory, #favoriteColors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.color-box {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.color-box:hover {
+    transform: scale(1.1);
+}
