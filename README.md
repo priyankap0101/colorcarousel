@@ -29,7 +29,7 @@ You will need a modern web browser to view this project.
 1. Clone the repo
 
     ```sh
-    git clone https://github.com/yourusername/random-bg-color-generator.git
+    git clone https://github.com/priyankap0101/colorcarousel
     ```
 
 2. Open the `index.html` file in your web browser.
